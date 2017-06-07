@@ -11,6 +11,7 @@ const xmlEndpoint = `https://medium.com/feed/${process.env.MEDIUM_FEED_NAME || d
 server.connection({
   port: (process.env.PORT || 4134),
   host: '0.0.0.0',
+  routes: { cors: true }
 });
 
 server.route({
@@ -21,12 +22,6 @@ server.route({
       if (err) return reply(`Error: ${err}`);
       return reply(Parser.toJson(payload, { object: true, sanitize: false }));
     });
-  },
-  config: {
-    cors: {
-      origin: '*',
-      additionalHeaders: ['cache-control', 'x-requested-with']
-    }
   }
 });
 
