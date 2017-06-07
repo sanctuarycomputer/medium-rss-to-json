@@ -1,0 +1,22 @@
+{
+  "name": "medium-rss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanctuarycomputer/medium-rss.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanctuarycomputer/medium-rss/issues"
+  },
+  "homepage": "https://github.com/sanctuarycomputer/medium-rss#readme",
+  "dependencies": {
+    "hapi": "^16.4.1"
+  }
+}
