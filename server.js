@@ -21,6 +21,12 @@ server.route({
       if (err) return reply(`Error: ${err}`);
       return reply(Parser.toJson(payload, { object: true, sanitize: false }));
     });
+  },
+  config: {
+    cors: {
+      origin: '*',
+      additionalHeaders: ['cache-control', 'x-requested-with']
+    }
   }
 });
 
