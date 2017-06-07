@@ -1,0 +1,10 @@
+{
+  "name": "Medium RSS to JSON",
+  "description": "A simple Heroku-ready Hapi.js app that converts a Medium RSS feed to JSON.",
+  "repository": "https://github.com/sanctuarycomputer/medium-rss-to-json.git",
+  "env": {
+     "MEDIUM_FEED_NAME": {
+      "description": "Your user handle (include @) or publication name, more info here: https://help.medium.com/hc/en-us/articles/214874118-RSS-feeds"
+    }
+  }
+}

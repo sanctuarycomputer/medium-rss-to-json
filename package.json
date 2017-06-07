@@ -1,21 +1,21 @@
 {
   "name": "medium-rss-to-json",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple Heroku-ready Hapi.js app that converts a Medium RSS feed to JSON.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sanctuarycomputer/medium-rss.git"
+    "url": "git+https://github.com/sanctuarycomputer/medium-rss-to-json.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Sebastian Odell",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sanctuarycomputer/medium-rss/issues"
+    "url": "https://github.com/sanctuarycomputer/medium-rss-to-json/issues"
   },
-  "homepage": "https://github.com/sanctuarycomputer/medium-rss#readme",
+  "homepage": "https://github.com/sanctuarycomputer/medium-rss-to-json#readme",
   "dependencies": {
     "hapi": "^16.4.1",
     "wreck": "^12.2.2",
