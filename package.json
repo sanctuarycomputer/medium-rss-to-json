@@ -1,5 +1,5 @@
 {
-  "name": "medium-rss",
+  "name": "medium-rss-to-json",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/sanctuarycomputer/medium-rss#readme",
   "dependencies": {
-    "hapi": "^16.4.1"
+    "hapi": "^16.4.1",
+    "wreck": "^12.2.2",
+    "xml2json": "^0.11.0"
   }
 }
